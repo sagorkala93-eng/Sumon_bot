@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 module.exports.config = {
-    name: "remini",
+    name: "2k",
     version: "1.1",
     hasPermission: 0,
     credits: "SaGor",
