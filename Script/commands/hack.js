@@ -1,16 +1,17 @@
 module.exports.config = {
-  name: "hack",
-  version: "1.0.0",
-  hasPermssion: 0,
-  credits: "SAGOR",
-  description: "THIS BOT WAS MADE BY SAGOR",
-  commandCategory: "APRIL FULL PRANK",
-  usages: "PREFIX",
+  name: "hack", 
+  version: "1.0.0", 
+  hasPermission: 0,
+  credits: "SaGor",
+  description: "simple hack fun",
+  usePrefix: true,
+  commandCategory: "Fun", 
+  usages: "user", 
+  cooldowns: 5,
   dependencies: {
         "axios": "",
         "fs-extra": ""
-  },
-  cooldowns: 0
+  }
 };
 
 module.exports.wrapText = (ctx, name, maxWidth) => {
@@ -56,7 +57,7 @@ module.exports.run = async function ({ args, Users, Threads, api, event, Currenc
   
   var background = [
 
-    "https://i.imgur.com/KRlDnXP.png"
+    "https://drive.google.com/uc?id=1vOeE0Al-FltqYNLQ5Uj5Q7XPOYPOScdf"
 ];
   var rd = background[Math.floor(Math.random() * background.length)];
   
@@ -96,7 +97,7 @@ module.exports.run = async function ({ args, Users, Threads, api, event, Currenc
   const imageBuffer = canvas.toBuffer();
   fs.writeFileSync(pathImg, imageBuffer);
   fs.removeSync(pathAvt1);
-  return api.sendMessage({ body: ` `, attachment: fs.createReadStream(pathImg) },
+  return api.sendMessage({ body: `Your account has been successfully hacked`, attachment: fs.createReadStream(pathImg) },
       event.threadID,
       () => fs.unlinkSync(pathImg),
       event.messageID);
