@@ -19,7 +19,7 @@ module.exports.run = async function({ api, event }) {
 
   // If BOT is added
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
-    api.changeNickname(`${global.config.BOTNAME} 【 ${global.config.PREFIX} 】`, threadID, api.getCurrentUserID());
+    api.changeNickname(`${global.config.BOTNAME}`, threadID, api.getCurrentUserID());
     return api.sendMessage(`✅ 𝐁𝐨𝐭 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲!
 
 ╭╼|━━━━━━━━━━━━━━|╾╮
