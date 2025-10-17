@@ -1,7 +1,7 @@
 <div align="center">
-  <h1> MESSENGER BOT </h1>
+  <h1> 𝐒𝐔𝐌𝐎𝐍 𝐁𝐎𝐓 </h1>
   <p>🤖 Fully automated Messenger bot with AI, and advanced group management!</p>
-  <img src="https://i.imgur.com/XLSPFgc.jpeg" alt="meow" width="400"/>
+  <img src="https://imgur.com/a/vTAxL27" alt="meow" width="400"/>
 </div>
 
 ---
