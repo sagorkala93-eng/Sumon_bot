@@ -3,7 +3,7 @@
 	"PreKey": "",
 	"AutoUpdate": true,
 	"MainColor": "#9900FF",
-	"MainName": "[ SAGOR-FCA ]", //It's useless, you can delete it, no problem. 
+	"MainName": "[ SAGOR-FCA ]", 
 	"Uptime": false,
 	"Config": "default",
 	"DevMode": false,
